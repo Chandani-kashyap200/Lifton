@@ -21,7 +21,8 @@ export default function App() {
         <Toaster />
         <Sonner />
 
-        <BrowserRouter>
+
+       <BrowserRouter basename="/Lifton">
           <AuthProvider>
             <Routes>
               <Route path="/" element={<Landing />} />
